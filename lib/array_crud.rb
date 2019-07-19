@@ -17,8 +17,8 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["Dad", "Mom"]
-  mom_remove = array.pop
+  remove_stuff = [array]
+  array_gone = remove_stuff.pop
 end
 
 def remove_element_from_start_of_array(array)
